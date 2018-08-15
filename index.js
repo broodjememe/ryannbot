@@ -1,7 +1,6 @@
 const discord = require("discord.js")
 const client = new discord.Client();
 
-bot.login(process.env.token);
 
 client.on('message', message => {
 
@@ -74,3 +73,4 @@ client.on('message', message => {
 
 });
 
+bot.login(process.env.token);
