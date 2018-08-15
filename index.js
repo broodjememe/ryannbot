@@ -70,7 +70,7 @@ client.on('message', message => {
     else if (message.content.toLowerCase() === 'hey ryan')
         message.reply('hey brendon');
 
-
+  }
 });
 
 bot.login(process.env.token);
