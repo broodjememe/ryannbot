@@ -1,7 +1,7 @@
 const discord = require("discord.js")
 const client = new discord.Client();
 
-client.login(token);
+bot.login(process.env.token);
 
 client.on('message', message => {
 
